@@ -1,0 +1,11 @@
+query CountryList{
+    countries{
+        name
+        capital
+        currency
+        emoji
+        languages {
+            name
+        }
+    }
+}
