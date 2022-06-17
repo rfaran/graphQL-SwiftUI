@@ -15,6 +15,7 @@
 		350835D6285D1F6A009404DB /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 350835D5285D1F6A009404DB /* Queries.graphql */; };
 		350835DA285D2215009404DB /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 350835D9285D2215009404DB /* schema.json */; };
 		350835DC285D2226009404DB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350835DB285D2226009404DB /* API.swift */; };
+		350835DE285D2247009404DB /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350835DD285D2247009404DB /* Apollo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		350835D5285D1F6A009404DB /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
 		350835D9285D2215009404DB /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		350835DB285D2226009404DB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = ApolloGraphQLDemo/API.swift; sourceTree = SOURCE_ROOT; };
+		350835DD285D2247009404DB /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				350835DB285D2226009404DB /* API.swift */,
 				350835D5285D1F6A009404DB /* Queries.graphql */,
+				350835DD285D2247009404DB /* Apollo.swift */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				350835C6285D1E51009404DB /* ContentView.swift in Sources */,
 				350835DC285D2226009404DB /* API.swift in Sources */,
+				350835DE285D2247009404DB /* Apollo.swift in Sources */,
 				350835C4285D1E51009404DB /* ApolloGraphQLDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
