@@ -17,6 +17,7 @@ struct CountryListView: View {
                     CountryCell(country: country)
                 }
                 .navigationTitle("Countries")
+                if viewModel.isLoading { LoadingView() }
             }
         }.onAppear { viewModel.loadCountryList() }
     }
